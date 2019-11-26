@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD704EA3238D371400DBB7ED /* AnimationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD704EA2238D371400DBB7ED /* AnimationLabel.swift */; };
+		DD704EA6238D4DB400DBB7ED /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD704EA5238D4DB400DBB7ED /* String+Ext.swift */; };
+		DDC79E5C238A506700644D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E5B238A506700644D5B /* AppDelegate.swift */; };
+		DDC79E65238A506900644D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC79E64238A506900644D5B /* Assets.xcassets */; };
+		DDC79E68238A506900644D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC79E66238A506900644D5B /* LaunchScreen.storyboard */; };
+		DDC79E78238A523B00644D5B /* EnterTextPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E72238A523B00644D5B /* EnterTextPresenter.swift */; };
+		DDC79E79238A523B00644D5B /* EnterTextRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E73238A523B00644D5B /* EnterTextRouter.swift */; };
+		DDC79E7A238A523B00644D5B /* EnterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E74238A523B00644D5B /* EnterTextViewController.swift */; };
+		DDC79E7B238A523B00644D5B /* EnterTextProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E75238A523B00644D5B /* EnterTextProtocols.swift */; };
+		DDC79E7D238A523B00644D5B /* EnterTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC79E77238A523B00644D5B /* EnterTextViewController.xib */; };
+		DDC79E86238A552E00644D5B /* AnimationTextPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E80238A552E00644D5B /* AnimationTextPresenter.swift */; };
+		DDC79E87238A552E00644D5B /* AnimationTextRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E81238A552E00644D5B /* AnimationTextRouter.swift */; };
+		DDC79E88238A552E00644D5B /* AnimationTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E82238A552E00644D5B /* AnimationTextViewController.swift */; };
+		DDC79E89238A552E00644D5B /* AnimationTextProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79E83238A552E00644D5B /* AnimationTextProtocols.swift */; };
+		DDC79E8B238A552E00644D5B /* AnimationTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC79E85238A552E00644D5B /* AnimationTextViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD704EA2238D371400DBB7ED /* AnimationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLabel.swift; sourceTree = "<group>"; };
+		DD704EA5238D4DB400DBB7ED /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		DDC79E58238A506700644D5B /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC79E5B238A506700644D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDC79E64238A506900644D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC79E67238A506900644D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC79E69238A506900644D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC79E72238A523B00644D5B /* EnterTextPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextPresenter.swift; sourceTree = "<group>"; };
+		DDC79E73238A523B00644D5B /* EnterTextRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextRouter.swift; sourceTree = "<group>"; };
+		DDC79E74238A523B00644D5B /* EnterTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextViewController.swift; sourceTree = "<group>"; };
+		DDC79E75238A523B00644D5B /* EnterTextProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextProtocols.swift; sourceTree = "<group>"; };
+		DDC79E77238A523B00644D5B /* EnterTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterTextViewController.xib; sourceTree = "<group>"; };
+		DDC79E80238A552E00644D5B /* AnimationTextPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextPresenter.swift; sourceTree = "<group>"; };
+		DDC79E81238A552E00644D5B /* AnimationTextRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextRouter.swift; sourceTree = "<group>"; };
+		DDC79E82238A552E00644D5B /* AnimationTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextViewController.swift; sourceTree = "<group>"; };
+		DDC79E83238A552E00644D5B /* AnimationTextProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextProtocols.swift; sourceTree = "<group>"; };
+		DDC79E85238A552E00644D5B /* AnimationTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationTextViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC79E55238A506700644D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD704EA1238D36E200DBB7ED /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DD704EA2238D371400DBB7ED /* AnimationLabel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DD704EA4238D4DA300DBB7ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD704EA5238D4DB400DBB7ED /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDC79E4F238A506700644D5B = {
+			isa = PBXGroup;
+			children = (
+				DDC79E5A238A506700644D5B /* Animation */,
+				DDC79E59238A506700644D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC79E59238A506700644D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC79E58238A506700644D5B /* Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC79E5A238A506700644D5B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DDC79E70238A50D400644D5B /* App */,
+				DDC79E6F238A50BD00644D5B /* SupportFile */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		DDC79E6F238A50BD00644D5B /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				DDC79E64238A506900644D5B /* Assets.xcassets */,
+				DDC79E66238A506900644D5B /* LaunchScreen.storyboard */,
+				DDC79E69238A506900644D5B /* Info.plist */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		DDC79E70238A50D400644D5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DD704EA4238D4DA300DBB7ED /* Extensions */,
+				DD704EA1238D36E200DBB7ED /* UI */,
+				DDC79E71238A50DE00644D5B /* Modules */,
+				DDC79E5B238A506700644D5B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DDC79E71238A50DE00644D5B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DDC79E7F238A551600644D5B /* AnimationText */,
+				DDC79E7E238A524500644D5B /* EnterText */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DDC79E7E238A524500644D5B /* EnterText */ = {
+			isa = PBXGroup;
+			children = (
+				DDC79E72238A523B00644D5B /* EnterTextPresenter.swift */,
+				DDC79E73238A523B00644D5B /* EnterTextRouter.swift */,
+				DDC79E74238A523B00644D5B /* EnterTextViewController.swift */,
+				DDC79E75238A523B00644D5B /* EnterTextProtocols.swift */,
+				DDC79E77238A523B00644D5B /* EnterTextViewController.xib */,
+			);
+			path = EnterText;
+			sourceTree = "<group>";
+		};
+		DDC79E7F238A551600644D5B /* AnimationText */ = {
+			isa = PBXGroup;
+			children = (
+				DDC79E80238A552E00644D5B /* AnimationTextPresenter.swift */,
+				DDC79E81238A552E00644D5B /* AnimationTextRouter.swift */,
+				DDC79E82238A552E00644D5B /* AnimationTextViewController.swift */,
+				DDC79E83238A552E00644D5B /* AnimationTextProtocols.swift */,
+				DDC79E85238A552E00644D5B /* AnimationTextViewController.xib */,
+			);
+			path = AnimationText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC79E57238A506700644D5B /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC79E6C238A506900644D5B /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				DDC79E54238A506700644D5B /* Sources */,
+				DDC79E55238A506700644D5B /* Frameworks */,
+				DDC79E56238A506700644D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = DDC79E58238A506700644D5B /* Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC79E50238A506700644D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Вадим";
+				TargetAttributes = {
+					DDC79E57238A506700644D5B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = DDC79E53238A506700644D5B /* Build configuration list for PBXProject "Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC79E4F238A506700644D5B;
+			productRefGroup = DDC79E59238A506700644D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC79E57238A506700644D5B /* Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC79E56238A506700644D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC79E8B238A552E00644D5B /* AnimationTextViewController.xib in Resources */,
+				DDC79E68238A506900644D5B /* LaunchScreen.storyboard in Resources */,
+				DDC79E65238A506900644D5B /* Assets.xcassets in Resources */,
+				DDC79E7D238A523B00644D5B /* EnterTextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC79E54238A506700644D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC79E88238A552E00644D5B /* AnimationTextViewController.swift in Sources */,
+				DDC79E89238A552E00644D5B /* AnimationTextProtocols.swift in Sources */,
+				DDC79E7B238A523B00644D5B /* EnterTextProtocols.swift in Sources */,
+				DDC79E79238A523B00644D5B /* EnterTextRouter.swift in Sources */,
+				DDC79E87238A552E00644D5B /* AnimationTextRouter.swift in Sources */,
+				DDC79E86238A552E00644D5B /* AnimationTextPresenter.swift in Sources */,
+				DDC79E78238A523B00644D5B /* EnterTextPresenter.swift in Sources */,
+				DD704EA3238D371400DBB7ED /* AnimationLabel.swift in Sources */,
+				DDC79E7A238A523B00644D5B /* EnterTextViewController.swift in Sources */,
+				DDC79E5C238A506700644D5B /* AppDelegate.swift in Sources */,
+				DD704EA6238D4DB400DBB7ED /* String+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDC79E66238A506900644D5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC79E67238A506900644D5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC79E6A238A506900644D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC79E6B238A506900644D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC79E6D238A506900644D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Animation/SupportFile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vadim.Animation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDC79E6E238A506900644D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Animation/SupportFile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vadim.Animation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC79E53238A506700644D5B /* Build configuration list for PBXProject "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC79E6A238A506900644D5B /* Debug */,
+				DDC79E6B238A506900644D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC79E6C238A506900644D5B /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC79E6D238A506900644D5B /* Debug */,
+				DDC79E6E238A506900644D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC79E50238A506700644D5B /* Project object */;
+}
